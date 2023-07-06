@@ -1,727 +1,703 @@
-html{
-	width:1024px;
-	height:100%;
-	margin:auto;
+html {
+	width: 1024px;
+	height: 100%;
+	margin: auto;
 }
 
-body{
-	margin:0px;
-	padding:0px;
-	background:#444;
-	font-family:Arial, Verdana, Heveltica;
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #444;
+	font-family: Arial, Verdana, Heveltica;
 }
 
 .fluid-wrapper {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    height: 0;
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
 }
 .fluid-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-        border: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
 }
 
-div#topBack{
-	width:1024px;
-	margin:0px;
-	padding:0px;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:20px;
-	background-image:url(pictures/topBack_low_crop.png);
-	box-shadow:0px 0px 20px #000;
-	clear:both;
+div#topBack {
+	width: 1024px;
+	margin: 0px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	background: url('pictures/london.png') no-repeat center center/cover;
+	box-shadow: 0px 0px 20px #000;
+	clear: both;
 	overflow: auto;
-	height:300px;
+	height: 300px;
 }
 
-div#topBack div#header{
-	box-shadow:0px 0px 20px #000;
+div#topBack div#header {
+	box-shadow: 0px 0px 20px #000;
 }
 
-div#topBack div#header div#logo1{
-	margin-top:0px;
-	margin-left:-200px;
-	margin-right:0px;
-	float:left;
+div#topBack div#header div#logo1 {
+	margin-top: 0px;
+	margin-left: -200px;
+	margin-right: 0px;
+	float: left;
 }
 
-div#topBack div#header div#logo2{
-	margin-top:20px;
-	margin-left:-30px;
-	margin-right:20px;
-	float:left;
+div#topBack div#header div#logo2 {
+	margin-top: 0px;
+	margin-left: -30px;
+	margin-right: 20px;
+	float: left;
 }
 
-div#topBack div#header div#mainTitle{
-	padding-top:150px;
-	padding-left:30px;
-	float:left;
- 	width:880px;	
-	text-align:left;
-	color:#fff;
-	font-size:2em;
-	font-weight:bold;
-	font-family:Arial, Verdana, Heveltica;
-	text-decoration:none;
+div#topBack div#header div#mainTitle {
+	padding-top: 150px;
+	padding-left: 30px;
+	float: left;
+	width: 880px;
+	text-align: left;
+	color: #fff;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: Arial, Verdana, Heveltica;
+	text-decoration: none;
 }
 
-div#topBack div#header div#mainTitle a{
-	color:#fff;
-	text-align:left;
-	font-weight:bold;
-	font-family:Arial, Verdana, Heveltica;
-	text-decoration:none;
-	clear:both;
-	
+div#topBack div#header div#mainTitle a {
+	color: #fff;
+	text-align: left;
+	font-weight: bold;
+	font-family: Arial, Verdana, Heveltica;
+	text-decoration: none;
+	clear: both;
 }
-
 
 /**** MENU ******/
 
-div#menuBack{
-	margin:0px;
-	padding:0px;
-	margin-left:auto;
-	margin-right:auto;
-	width:1024px;
-	background:#000;
-	clear:both;
-	height:41px;
-	box-shadow:0px 0px 20px #000;
+div#menuBack {
+	margin: 0px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1024px;
+	background: #000;
+	clear: both;
+	height: 41px;
+	box-shadow: 0px 0px 20px #000;
 }
 
-div#menuBack ul.menu{
-	margin:0px;
-	padding:0px;
-	float:left;
-	list-style:none;
-	display:inline;
-	margin-left:35px;
+div#menuBack ul.menu {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	list-style: none;
+	display: inline;
+	margin-left: 35px;
 }
 
-div#menuBack ul.menu li{
-	list-style:none;
-	display:inline;
-	float:left;
-	position:relative;
-	text-align:center;
+div#menuBack ul.menu li {
+	list-style: none;
+	display: inline;
+	float: left;
+	position: relative;
+	text-align: center;
 }
 
-div#menuBack ul.menu li a{
-	background:transparent;
-	float:left;
-	color:#ffffff;
-	text-decoration:none;
-	font-family:Verdana, Arial, Heveltica;
-	font-size:0.85em;
-	font-weight:bold;
-	text-align:center;
-	padding:12px;
+div#menuBack ul.menu li a {
+	background: transparent;
+	float: left;
+	color: #ffffff;
+	text-decoration: none;
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 0.85em;
+	font-weight: bold;
+	text-align: center;
+	padding: 12px;
 }
 
-div#menuBack ul.menu li a:hover{
-	background:#333;
-	color:#fff;
-	width:inherit;
+div#menuBack ul.menu li a:hover {
+	background: #333;
+	color: #fff;
+	width: inherit;
 }
-
 
 /*** SUBMENU ****/
 
-div#menuBack ul.menu ul 
-{
-	display:none;
-	list-style:none;
-	top:41px;
-	position:absolute;
-	float:left;
-	margin:0;
-	padding:0;
+div#menuBack ul.menu ul {
+	display: none;
+	list-style: none;
+	top: 41px;
+	position: absolute;
+	float: left;
+	margin: 0;
+	padding: 0;
 }
 
-div#menuBack ul.menu li:hover > ul
-{
-	display:block;
-	z-index:100;
-	width:inherit;
+div#menuBack ul.menu li:hover > ul {
+	display: block;
+	z-index: 100;
+	width: inherit;
 	/*width:140px;*/
-	background-color:#a7a8aa;
-	
+	background-color: #a7a8aa;
 }
 
-div#menuBack ul.menu li.submenu a{
-	background:transparent;
-	color:#000;
-	text-decoration:none;
-	font-family:Verdana, Arial, Heveltica;
-	font-size:0.85em;
-	font-weight:bold;
-	height:auto;
-	width:inherit;
-	
+div#menuBack ul.menu li.submenu a {
+	background: transparent;
+	color: #000;
+	text-decoration: none;
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 0.85em;
+	font-weight: bold;
+	height: auto;
+	width: inherit;
 }
 
-div#menuBack ul.menu li.submenu a:hover{
-	background:#333;
-	color:#fff;
-	width:inherit;	
+div#menuBack ul.menu li.submenu a:hover {
+	background: #333;
+	color: #fff;
+	width: inherit;
 }
 
 /*******/
 
-
-div#Sep{
-	margin:0px;
-	padding:0px;
-	padding-top:0px;
-	height:1px;
-	background:#444;
+div#Sep {
+	margin: 0px;
+	padding: 0px;
+	padding-top: 0px;
+	height: 1px;
+	background: #444;
 }
 
-div#centerBack{	
-	margin-left:auto;
-	margin-right:auto;
-	margin-bottom:20px;
-	width:1024px;
-	padding-top:20px;
-	padding-bottom:20px;
-	background:#FFF;
-	box-shadow:0px 0px 20px #000;
-	clear:both;
-	height:auto;
-	overflow:auto;
-}
-
-div#centerBack div#central{
-	margin-left:auto;
-	margin-right:auto;
-	width:1024px;
+div#centerBack {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	width: 1024px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #fff;
+	box-shadow: 0px 0px 20px #000;
+	clear: both;
+	height: auto;
 	overflow: auto;
-
 }
 
+div#centerBack div#central {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1024px;
+	overflow: auto;
+}
 
-div#central div#mainBody{
-	margin-left:40px;
+div#central div#mainBody {
+	margin-left: 40px;
 	margin-right: 0px;
-	padding-left:20px;
-	padding-right:20px;
-	background:transparent;
-	width:670px;
-	float:left;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: transparent;
+	width: 670px;
+	float: left;
 	overflow: auto;
 }
 
-div#central div#twitter{
+div#central div#twitter {
 	margin-top: 20px;
 	margin-left: 0px;
-	margin-right:50px;
-	background:transparent;
-	width:200px;
-	float:right;
+	margin-right: 50px;
+	background: transparent;
+	width: 200px;
+	float: right;
 	overflow: auto;
 }
 
-	
-div#centerBack div#peu{
-	padding-top:10px;
-	font-family:Arial, Verdana, Heveltica;
-	font-size:0.8em;
-	font-weight:normal;
-	color:black;
-	text-align:center;
-	background:transparent;
+div#centerBack div#peu {
+	padding-top: 10px;
+	font-family: Arial, Verdana, Heveltica;
+	font-size: 0.8em;
+	font-weight: normal;
+	color: black;
+	text-align: center;
+	background: transparent;
 }
 
-div#ad{
-	background:#CCCCFF;
-	padding:20px;
-	padding-top:5px;
-	margin-left:0px;
-	margin-right:0px;
+div#ad {
+	background: #ccccff;
+	padding: 20px;
+	padding-top: 5px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
-
-div#ad p.subtitle{ 
-	font-family:Arial, Verdana, Heveltica;
-	color:#006;
-	font-size:1.25em;
-	font-weight:bold;
-	margin-top:0px;
+div#ad p.subtitle {
+	font-family: Arial, Verdana, Heveltica;
+	color: #006;
+	font-size: 1.25em;
+	font-weight: bold;
+	margin-top: 0px;
 }
 
-div#ad p.plaintext{
-	font-family:Arial, Verdana, Heveltica; 
-	color:black;
-	font-size:0.75em;
-
+div#ad p.plaintext {
+	font-family: Arial, Verdana, Heveltica;
+	color: black;
+	font-size: 0.75em;
 }
-
 
 table#sample {
-    background-color:#FFFFFF;
-    border:none;
-    width:800px;
-	margin:0px;
-	padding:0px;
+	background-color: #ffffff;
+	border: none;
+	width: 800px;
+	margin: 0px;
+	padding: 0px;
 }
 
 table#sample td {
-	padding-top:0px;
-	padding-left:45px;
-	padding-bottom:15px;
-    border:none;
+	padding-top: 0px;
+	padding-left: 45px;
+	padding-bottom: 15px;
+	border: none;
 }
 
-.title{
-    color: black;
-    text-align:left;
-	font-weight:bold;
-	font-family:Arial, Verdana, Heveltica;
-	font-size:1em;
-	background:transparent;
-	text-decoration:none;
-	
+.title {
+	color: black;
+	text-align: left;
+	font-weight: bold;
+	font-family: Arial, Verdana, Heveltica;
+	font-size: 1em;
+	background: transparent;
+	text-decoration: none;
 }
 
-.title a{
-	color:#006;
-    text-align:left;
-	font-weight:bold;
-	font-family:Arial, Verdana, Heveltica;
-	font-size:1.2em;
-	background:transparent;
-	text-decoration:none;
-	
+.title a {
+	color: #006;
+	text-align: left;
+	font-weight: bold;
+	font-family: Arial, Verdana, Heveltica;
+	font-size: 1.2em;
+	background: transparent;
+	text-decoration: none;
 }
 
-.photo{
-    font-weight: bold;
-    text-align: left;
-    background:white;
-	width:120px;
-	padding-left:20px;
+.photo {
+	font-weight: bold;
+	text-align: left;
+	background: white;
+	width: 120px;
+	padding-left: 20px;
 }
 
-.text{
-	font-family:Arial, Verdana, Heveltica;
-	font-size:1em;
-	font-weight:normal;
-	color:black;
-	text-align:left;
-	padding-left:20px;
-	
+.text {
+	font-family: Arial, Verdana, Heveltica;
+	font-size: 1em;
+	font-weight: normal;
+	color: black;
+	text-align: left;
+	padding-left: 20px;
 }
 
-div#simpleText{
-	margin:0px;
-	margin-top:0px;
-	padding:0px;
-	padding-bottom:15px;
+div#simpleText {
+	margin: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	padding-bottom: 15px;
 	padding-top: 15px;
-	font-family:Arial, Verdana, Heveltica;
-	font-size:0.8em;
-	font-weight:normal;
-	color:black;
-	text-align:left;
+	font-family: Arial, Verdana, Heveltica;
+	font-size: 0.8em;
+	font-weight: normal;
+	color: black;
+	text-align: left;
 }
 
-div#simpleText a{
-    color: #006;
-	text-decoration:none;
+div#simpleText a {
+	color: #006;
+	text-decoration: none;
 }
 
-a#people{
-	font-size:1em;
+a#people {
+	font-size: 1em;
 }
 
-table#mainPeople{
-	border-width:thick;
-	 padding:0px;
-	 margin:0px;
-	 width:650px;
-	 font-size:0.9em;
-	 background:#5B0024;
-	 color:white;
+table#mainPeople {
+	border-width: thick;
+	padding: 0px;
+	margin: 0px;
+	width: 650px;
+	font-size: 0.9em;
+	background: #5b0024;
+	color: white;
 }
 
-table#mainPeople table#subPeople{
-	background:#ffffcc;
-	border:0px;
-	padding:0px;
+table#mainPeople table#subPeople {
+	background: #ffffcc;
+	border: 0px;
+	padding: 0px;
 }
 
-table#mainPeople table#subPeople td#ipeople{
-    color: black;
-    text-align:left;
-	font-weight:bold;
-	font-family:Arial, Verdana, Heveltica;
-	font-size:0.8em;
-	width:150px;
+table#mainPeople table#subPeople td#ipeople {
+	color: black;
+	text-align: left;
+	font-weight: bold;
+	font-family: Arial, Verdana, Heveltica;
+	font-size: 0.8em;
+	width: 150px;
 }
 
-table#mainPeople table#subPeople td#ipeople a{
-    color: black;
-	text-decoration:none;
+table#mainPeople table#subPeople td#ipeople a {
+	color: black;
+	text-decoration: none;
 }
 
-table#mainPeople table#subPeople td#iproject{
-    color: black;
-    text-align:left;
-	font-weight:bold;
-	font-family:Arial, Verdana, Heveltica;
-	font-size:0.8em;
-	width:325px;
-	vertical-align:middle;	
+table#mainPeople table#subPeople td#iproject {
+	color: black;
+	text-align: left;
+	font-weight: bold;
+	font-family: Arial, Verdana, Heveltica;
+	font-size: 0.8em;
+	width: 325px;
+	vertical-align: middle;
 }
 
-table#mainPeople table#subPeople td#iproject a{
-    color: black;
-	text-decoration:none;
+table#mainPeople table#subPeople td#iproject a {
+	color: black;
+	text-decoration: none;
 }
 
-td#people{
-    color: black;
-    text-align:left;
-	font-family:Arial, Verdana, Heveltica;
-	font-size:0.8em;
-	width:150px;
+td#people {
+	color: black;
+	text-align: left;
+	font-family: Arial, Verdana, Heveltica;
+	font-size: 0.8em;
+	width: 150px;
 }
 
-table#mainPeople table#subPeople td#ipubli{
-    color: black;
-    text-align:left;
-	font-weight:bold;
-	font-family:Arial, Verdana, Heveltica;
-	font-size:0.8em;
-	width:36px;
-	vertical-align:middle;	
+table#mainPeople table#subPeople td#ipubli {
+	color: black;
+	text-align: left;
+	font-weight: bold;
+	font-family: Arial, Verdana, Heveltica;
+	font-size: 0.8em;
+	width: 36px;
+	vertical-align: middle;
 }
 
-table#mainPeople table#subPeople td#ipubli a{
-	font-family:Arial, Verdana, Heveltica;	
-    color: black;
-	text-decoration:none;
+table#mainPeople table#subPeople td#ipubli a {
+	font-family: Arial, Verdana, Heveltica;
+	color: black;
+	text-decoration: none;
 }
 
-td#publi{
-	font-family:Arial, Verdana, Heveltica;	
-	font-size:0.8em;
-	margin-left:50px;
-	padding-left:20px;
+td#publi {
+	font-family: Arial, Verdana, Heveltica;
+	font-size: 0.8em;
+	margin-left: 50px;
+	padding-left: 20px;
 }
 
-li#classes{
-	margin-left:50px;
-	padding-left:20px;
+li#classes {
+	margin-left: 50px;
+	padding-left: 20px;
 }
 
-li#classes a{
-	font-family:Arial, Verdana, Heveltica;	
-	font-size:0.8em;
-	text-decoration:none;
-	color:#5B0024;
-	color:black;
+li#classes a {
+	font-family: Arial, Verdana, Heveltica;
+	font-size: 0.8em;
+	text-decoration: none;
+	color: #5b0024;
+	color: black;
 }
 
-table#mainPeople table#subPeople td#iwork{
-    color: black;
-    text-align:left;
-	font-weight:bold;
-	font-family:Arial, Verdana, Heveltica;
-	font-size:0.8em;
-	width:68px;
-	vertical-align:middle;	
+table#mainPeople table#subPeople td#iwork {
+	color: black;
+	text-align: left;
+	font-weight: bold;
+	font-family: Arial, Verdana, Heveltica;
+	font-size: 0.8em;
+	width: 68px;
+	vertical-align: middle;
 }
 
-table#mainPeople table#subPeople td#iwork a{
-	font-family:Arial, Verdana, Heveltica;	
-    color: black;
-	text-decoration:none;
+table#mainPeople table#subPeople td#iwork a {
+	font-family: Arial, Verdana, Heveltica;
+	color: black;
+	text-decoration: none;
 }
 
-table#mainPeople table#subPeople td#iphoto{
-    color: black;
-    text-align:left;
-	font-weight:bold;
-	font-family:Arial, Verdana, Heveltica;
-	font-size:0.8em;
-	width:60px;
-	vertical-align:middle;	
+table#mainPeople table#subPeople td#iphoto {
+	color: black;
+	text-align: left;
+	font-weight: bold;
+	font-family: Arial, Verdana, Heveltica;
+	font-size: 0.8em;
+	width: 60px;
+	vertical-align: middle;
 }
 
-table#mainPeople table#subPeople td#iphoto a{
-	font-family:Arial, Verdana, Heveltica;	
-    color: black;
-	text-decoration:none;
+table#mainPeople table#subPeople td#iphoto a {
+	font-family: Arial, Verdana, Heveltica;
+	color: black;
+	text-decoration: none;
 }
 
-blockquote{
-    color: #5B0024;
+blockquote {
+	color: #5b0024;
 }
 
-ul#journals{
-	list-style:none;
-	margin:0;
-	padding:0;
-    padding-left:0px;
+ul#journals {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	padding-left: 0px;
 }
 
-ul#journals li blockquote a{
-	font-family:Arial, Verdana, Heveltica;	
-	color:#5B0024;
-	text-decoration:none;
-	font-weight:bold;
-	list-style:none;
-	display:inline;
-	list-style:none;	
+ul#journals li blockquote a {
+	font-family: Arial, Verdana, Heveltica;
+	color: #5b0024;
+	text-decoration: none;
+	font-weight: bold;
+	list-style: none;
+	display: inline;
+	list-style: none;
 }
 
-div #newsBack{
-	margin:0px;
-	margin-top:0px;
-	padding:0px;
-	padding-bottom:15px;
+div #newsBack {
+	margin: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	padding-bottom: 15px;
 	padding-top: 0px;
 	padding-left: 25px;
 	padding-right: 35px;
-	font-family:Arial, Verdana, Heveltica;
-	font-size:0.8em;
-	font-weight:normal;
-	color:black;
-	text-align:left;
+	font-family: Arial, Verdana, Heveltica;
+	font-size: 0.8em;
+	font-weight: normal;
+	color: black;
+	text-align: left;
 }
 
-div #projectsMenu{
-	background:transparent;
-	margin:0px;
-	padding:0px;
-	padding-left:30px;
-	padding-top:15px;
-	width:160px;
-	float:left;	
+div #projectsMenu {
+	background: transparent;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 30px;
+	padding-top: 15px;
+	width: 160px;
+	float: left;
 }
 
-div #projectsMenu ul{
-	background:transparent;
-	list-style:none;
-	margin:0px;
-	padding:0px;	
+div #projectsMenu ul {
+	background: transparent;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
 }
 
-div #projectsMenu ul li{
-	margin-bottom:4px;
-	background:black;
-	padding-top:5px;
-	padding-left:5px;
-	padding-bottom:5px;
-	padding-right:5px;
-	background-color:#000066;
-	display:block;
-}
-	
-div#projectsMenu ul li a{
-	font-family:Arial, Verdana, Heveltica;
-	font-size:0.8em;
-	text-decoration:none;	
-	color:white;	
-	font-weight:bold;
-	background:transparent;	
-	color:#FFFFFF;
-	display:block;
+div #projectsMenu ul li {
+	margin-bottom: 4px;
+	background: black;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	background-color: #000066;
+	display: block;
 }
 
-div#projectsMenu ul li:hover{
-	background:#CCCCFF;
-	color:#000066;
-	
-}
- 
-div#projectsMenu ul li a:hover{
-	background:#CCCCFF;
-	color:#000066;
-	
-}
-
-div#projectBody{
-	background:transparent;
-	float:left;
-	margin-left:40px;
-	width:618px;
-	padding-right:30px;
-	font-size:0.8em;
+div#projectsMenu ul li a {
+	font-family: Arial, Verdana, Heveltica;
+	font-size: 0.8em;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	background: transparent;
+	color: #ffffff;
+	display: block;
 }
 
-div#projectBody p.title{ 
-	font-family:Arial, Verdana, Heveltica;
-	color:#006;
-	font-size:xx-large;
-	padding-top:0px;
-	margin-top:8px;
-	font-weight:bold;
+div#projectsMenu ul li:hover {
+	background: #ccccff;
+	color: #000066;
 }
 
-div#projectBody p.subtitle{ 
-	font-family:Arial, Verdana, Heveltica;
-	color:#006;
-	font-size:x-large;
-	padding-top:0px;
-	margin-top:8px;
-	font-weight:bold;	
+div#projectsMenu ul li a:hover {
+	background: #ccccff;
+	color: #000066;
 }
 
-div#projectBody p.plaintext{
-	font-family:Arial, Verdana, Heveltica; 
-	color:black;
-
+div#projectBody {
+	background: transparent;
+	float: left;
+	margin-left: 40px;
+	width: 618px;
+	padding-right: 30px;
+	font-size: 0.8em;
 }
 
-div#projectBody p.subsubtitle{
-	font-size:1.4em;
-	font-weight:bold;
-	color:#006;
+div#projectBody p.title {
+	font-family: Arial, Verdana, Heveltica;
+	color: #006;
+	font-size: xx-large;
+	padding-top: 0px;
+	margin-top: 8px;
+	font-weight: bold;
+}
+
+div#projectBody p.subtitle {
+	font-family: Arial, Verdana, Heveltica;
+	color: #006;
+	font-size: x-large;
+	padding-top: 0px;
+	margin-top: 8px;
+	font-weight: bold;
+}
+
+div#projectBody p.plaintext {
+	font-family: Arial, Verdana, Heveltica;
+	color: black;
+}
+
+div#projectBody p.subsubtitle {
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #006;
 }
 
 div#personalMain {
-	padding-left:50px;	
+	padding-left: 50px;
 }
 
 table#personalTable {
-    background-color:#FFFFFF;
-    border:none;
-    width:400px;
-	margin:0px;
-	padding:0px;
-	padding-left:40px;
+	background-color: #ffffff;
+	border: none;
+	width: 400px;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 40px;
 }
 
-table#personalTable td.photo{
-    font-weight:bold;
-    text-align:center;
-    background:white;
-	vertical-align:middle;
-	padding-left:0px;
-	padding-right:30px;
+table#personalTable td.photo {
+	font-weight: bold;
+	text-align: center;
+	background: white;
+	vertical-align: middle;
+	padding-left: 0px;
+	padding-right: 30px;
 }
 
-table#personalTable td p.title{
-	margin:0px;
-	margin-top:0px;
-	padding:0px;
-	padding-bottom:15px;
-	font-family:Arial, Verdana, Heveltica;
-	font-size:1.5em;
-	font-weight:bold;
-	color:#006;
-	text-align:left;
-	width:400px;
+table#personalTable td p.title {
+	margin: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	padding-bottom: 15px;
+	font-family: Arial, Verdana, Heveltica;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #006;
+	text-align: left;
+	width: 400px;
 }
 
-table#personalTable td p.simpleText{
-	margin:0px;
-	margin-top:0px;
-	padding:0px;
-	padding-bottom:15px;
+table#personalTable td p.simpleText {
+	margin: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	padding-bottom: 15px;
 	padding-top: 15px;
-	font-family:Arial, Verdana, Heveltica;
-	font-size:0.8em;
-	font-weight:normal;
-	color:black;
-	text-align:left;
+	font-family: Arial, Verdana, Heveltica;
+	font-size: 0.8em;
+	font-weight: normal;
+	color: black;
+	text-align: left;
 }
 
-table#personalTable td p.simpleText a{
-	color:#006;
+table#personalTable td p.simpleText a {
+	color: #006;
 }
 
-div #personalMain{
-	background:transparent;
-	margin:0px;
-	padding:0px;
-	padding-left:50px;
-	padding-right:50px;
-	padding-top:0px;
-	float:left;
+div #personalMain {
+	background: transparent;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 0px;
+	float: left;
 }
 
-
-div#personalMain p.title{
-	font-family:Arial, Verdana, Heveltica;
-	color:#006;
-	font-size:1.5em;
-	padding-top:0px;
-	margin-top:0px;
-	font-weight:bold;	
+div#personalMain p.title {
+	font-family: Arial, Verdana, Heveltica;
+	color: #006;
+	font-size: 1.5em;
+	padding-top: 0px;
+	margin-top: 0px;
+	font-weight: bold;
 }
 
-div#personalMain p.text{
-	font-size:0.8em;
-	font-weight:normal;
-	color:black;
-	text-align:justify;	
+div#personalMain p.text {
+	font-size: 0.8em;
+	font-weight: normal;
+	color: black;
+	text-align: justify;
 }
 
-div#mainBody{
-	background:transparent;
-	float:left;
-	margin-left:60px;
-	width:900px;
-	margin-right:80px;
-	font-size:0.9em;
+div#mainBody {
+	background: transparent;
+	float: left;
+	margin-left: 60px;
+	width: 900px;
+	margin-right: 80px;
+	font-size: 0.9em;
 }
 
-div#mainBody p.title{ 
-	font-family:Arial, Verdana, Heveltica;
-	color:#333;
-	font-size:xx-large;
-	padding-top:0px;
-	margin-top:8px;
-	font-weight:bold;
+div#mainBody p.title {
+	font-family: Arial, Verdana, Heveltica;
+	color: #333;
+	font-size: xx-large;
+	padding-top: 0px;
+	margin-top: 8px;
+	font-weight: bold;
 }
 
-div#mainBody p.subtitle{ 
-	font-family:Arial, Verdana, Heveltica;
-	color:#333;
-	font-size:x-large;
-	padding-top:0px;
-	margin-top:8px;
-	font-weight:bold;	
+div#mainBody p.subtitle {
+	font-family: Arial, Verdana, Heveltica;
+	color: #333;
+	font-size: x-large;
+	padding-top: 0px;
+	margin-top: 8px;
+	font-weight: bold;
 }
 
-div#mainBody p.plaintext{
-	font-family:Arial, Verdana, Heveltica; 
-	color:black;
-
+div#mainBody p.plaintext {
+	font-family: Arial, Verdana, Heveltica;
+	color: black;
 }
 
-div#mainBody p.subsubtitle{
-	font-size:1.4em;
-	font-weight:bold;
-	color:#333;
+div#mainBody p.subsubtitle {
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #333;
 }
 
-div#mainBody p.subsubsubtitle{
-	font-size:1.2em;
-	font-weight:bold;
-	color:#333;
+div#mainBody p.subsubsubtitle {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #333;
 }
-
 
 div#mainBody table.people_table {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	text-align: left;
-	border-collapse:collapse;
-	width:690px;
+	border-collapse: collapse;
+	width: 690px;
 }
 
-
 div#mainBody table.people_table td.none {
-	padding-top:5px;
-	padding-bottom:5px;
-	width:5%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 5%;
 }
