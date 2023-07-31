@@ -1,3 +1,9 @@
+/* * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+} */
+
 html {
 	width: 1024px;
 	height: 100%;
@@ -68,6 +74,27 @@ div#topBack div#header div#mainTitle {
 	font-weight: bold;
 	font-family: Arial, Verdana, Heveltica;
 	text-decoration: none;
+}
+
+div#topBack div#header div#mainTitle .event-name {
+	font-size: 1.8em;
+	line-height: 0.8;
+	margin: 0.1em;
+	text-shadow: 0 0 4px red, 0 0 4px red, 0 0 4px red, 0 0 4px red, 0 0 4px red;
+}
+
+div#topBack div#header div#mainTitle .event-description {
+	font-size: 0.7em;
+	line-height: 0.8;
+	margin: 0.5em;
+	text-shadow: 0 0 4px red, 0 0 4px red, 0 0 4px red, 0 0 4px red, 0 0 4px red;
+}
+
+div#topBack div#header div#mainTitle .event-date {
+	font-size: 0.7em;
+	line-height: 0.8;
+	margin: 0.5em;
+	text-shadow: 0 0 4px red, 0 0 4px red, 0 0 4px red, 0 0 4px red, 0 0 4px red;
 }
 
 div#topBack div#header div#mainTitle a {
@@ -700,4 +727,84 @@ div#mainBody table.people_table td.none {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	width: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+	html {
+		width: auto;
+	}
+
+	div#topBack {
+		width: auto;
+		height: 100%;
+		margin: 0;
+		padding: 40px 20px;
+		box-shadow: none;
+	}
+
+	div#topBack div#header {
+		width: 100%;
+
+		display: flex;
+		flex-direction: column-reverse;
+		box-shadow: none;
+	}
+
+	div#topBack div#header div#logo1,
+	div#topBack div#header div#logo2,
+	div#topBack div#header div#mainTitle {
+		margin: 0;
+		padding: 0;
+		float: none;
+	}
+
+	div#topBack div#header div#mainTitle {
+		width: auto;
+		margin-top: 40px;
+	}
+
+	div#topBack div#header div#mainTitle .event-name,
+	div#topBack div#header div#mainTitle .event-description,
+	div#topBack div#header div#mainTitle .event-date {
+		font-size: none;
+		line-height: 25px;
+		margin: 0;
+	}
+
+	div#topBack div#header div#mainTitle .event-description {
+		margin: 30px 0;
+	}
+
+	div#menuBack {
+		width: auto;
+		background: none;
+		box-shadow: none;
+	}
+
+	div#menuBack ul.menu {
+		display: flex;
+		flex-direction: column;
+		background-color: black;
+		width: 100%;
+		margin: 0;
+	}
+
+	div#menuBack ul.menu li {
+		position: none;
+		float: unset;
+		padding: 5px;
+	}
+
+	div#menuBack ul.menu li a {
+		width: 100%;
+		text-align: left;
+	}
+
+	div#centerBack,
+	div#centerBack div#central,
+	div#central div#mainBody {
+		width: auto;
+		box-shadow: none;
+		margin: 0;
+	}
 }
