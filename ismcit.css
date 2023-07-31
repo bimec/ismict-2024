@@ -771,6 +771,10 @@ div#mainBody table.people_table td.none {
 		margin: 0;
 	}
 
+	div#topBack div#header div#mainTitle .event-name {
+		line-height: 55px;
+	}
+
 	div#topBack div#header div#mainTitle .event-description {
 		margin: 30px 0;
 	}
@@ -793,10 +797,11 @@ div#mainBody table.people_table td.none {
 		position: none;
 		float: unset;
 		padding: 5px;
+		width: auto;
 	}
 
 	div#menuBack ul.menu li a {
-		width: 100%;
+		width: 80%;
 		text-align: left;
 	}
 
