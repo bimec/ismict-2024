@@ -752,6 +752,13 @@ div#mainBody table.people_table td.none {
 	color: #fff;
 }
 
+.timetable thead tr th {
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #333;
+	color: #fff;
+}
+
 @media only screen and (max-width: 768px) {
 	html {
 		width: auto;
