@@ -734,6 +734,16 @@ div#mainBody table.people_table td.none {
 	width: 100%;
 }
 
+.timetable .td-time {
+	text-align: center;
+	background-color: #f2f4ed;
+	height: 15px;
+	vertical-align: middle;
+	width: 100px;
+	border-style: solid;
+	border-color: #ffffff;
+}
+
 @media only screen and (max-width: 768px) {
 	html {
 		width: auto;
