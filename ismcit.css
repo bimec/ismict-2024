@@ -759,6 +759,10 @@ div#mainBody table.people_table td.none {
 	color: #fff;
 }
 
+.timetable tbody tr {
+	height: 15px;
+}
+
 @media only screen and (max-width: 768px) {
 	html {
 		width: auto;
