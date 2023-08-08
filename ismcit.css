@@ -763,6 +763,41 @@ div#mainBody table.people_table td.none {
 	height: 15px;
 }
 
+.timetable tbody tr td span {
+	color: #000000;
+}
+
+.timetable tbody tr .td-itinerary {
+	width: 150px;
+}
+
+.timetable tbody tr .td-itinerary-a {
+	background-color: #c0ded9;
+	height: 15px;
+	text-align: center;
+	vertical-align: middle;
+	border-style: solid;
+	border-color: #ffffff;
+}
+
+.timetable tbody tr .td-itinerary-b {
+	background-color: #b2c2bf;
+	height: 15px;
+	text-align: center;
+	vertical-align: middle;
+	border-style: solid;
+	border-color: #ffffff;
+}
+
+.timetable tbody tr .td-itinerary-c {
+	background-color: #dec0c5;
+	text-align: center;
+	height: 15px;
+	vertical-align: middle;
+	border-style: solid;
+	border-color: #ffffff;
+}
+
 @media only screen and (max-width: 768px) {
 	html {
 		width: auto;
