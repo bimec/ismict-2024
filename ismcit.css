@@ -734,17 +734,6 @@ div#mainBody table.people_table td.none {
 	width: 100%;
 }
 
-.timetable .td-time {
-	text-align: center;
-	background-color: #f2f4ed;
-	height: 15px;
-	vertical-align: middle;
-	width: 100px;
-	border-style: solid;
-	border-color: #ffffff;
-	text-align: center;
-}
-
 .timetable .table-title {
 	font-weight: bold;
 	font-size: 18px;
@@ -767,8 +756,21 @@ div#mainBody table.people_table td.none {
 	color: #000000;
 }
 
+.timetable tbody tr .td-time {
+	text-align: center;
+	background-color: #f2f4ed;
+	height: 15px;
+	vertical-align: middle;
+	width: 100px;
+	border-style: solid;
+	border-color: #ffffff;
+	text-align: center;
+	padding: 5px;
+}
+
 .timetable tbody tr .td-itinerary {
 	width: 150px;
+	padding: 15px;
 }
 
 .timetable tbody tr .td-itinerary-a {
@@ -880,5 +882,16 @@ div#mainBody table.people_table td.none {
 		width: auto;
 		box-shadow: none;
 		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 485px) {
+	.timetable {
+		overflow-x: scroll;
+	}
+
+	.timetable tbody tr .td-itinerary {
+		width: 100px;
+		padding: 10px;
 	}
 }
