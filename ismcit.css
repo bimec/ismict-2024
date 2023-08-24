@@ -200,6 +200,52 @@ div#menuBack ul.menu li.submenu a:hover {
 
 /*** DEFAULT CONFIG ***/
 
+div#mainBody p.title {
+	font-family: Arial, Verdana, Heveltica;
+	color: #333;
+	font-size: xx-large;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+div#mainBody p.subtitle {
+	font-family: Arial, Verdana, Heveltica;
+	color: #333;
+	font-size: x-large;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+div#mainBody p.plaintext {
+	font-family: Arial, Verdana, Heveltica;
+	color: black;
+}
+
+div#mainBody p.subsubtitle {
+	font-size: 1.4rem;
+	font-weight: bold;
+	color: #333;
+}
+
+div#mainBody p.subsubsubtitle {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #333;
+}
+
+div#mainBody table.people_table {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+	border-collapse: collapse;
+	width: 690px;
+}
+
+div#mainBody table.people_table td.none {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 5%;
+}
+
 div#Sep {
 	margin: 0px;
 	padding: 0px;
@@ -319,7 +365,10 @@ table#sample td {
 }
 
 /* *** HOMEPAGE ***  */
-.homepage-parent .plaintext,
+.homepage-parent .plaintext {
+	margin-top: 10px;
+}
+
 .homepage-parent .list {
 	margin-top: 20px;
 }
@@ -331,6 +380,26 @@ table#sample td {
 .homepage-parent .sponsor img {
 	margin-top: 20px;
 	width: 250px;
+}
+
+/* *** Call for Papers (CFP) *** */
+.cfp-parent .download-pdf-p {
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.cfp-parent .download-pdf-p a {
+	font-size: inherit;
+	color: #333;
+	text-decoration: underline;
+}
+
+.cfp-parent .plaintext {
+	margin-top: 10px;
+}
+
+.cfp-parent .list {
+	margin: 30px 0;
 }
 
 div#simpleText {
@@ -675,54 +744,6 @@ div#personalMain p.text {
 	font-weight: normal;
 	color: black;
 	text-align: justify;
-}
-
-div#mainBody p.title {
-	font-family: Arial, Verdana, Heveltica;
-	color: #333;
-	font-size: xx-large;
-	padding-top: 0px;
-	margin-top: 8px;
-	font-weight: bold;
-}
-
-div#mainBody p.subtitle {
-	font-family: Arial, Verdana, Heveltica;
-	color: #333;
-	font-size: x-large;
-	padding-top: 0px;
-	margin-top: 8px;
-	font-weight: bold;
-}
-
-div#mainBody p.plaintext {
-	font-family: Arial, Verdana, Heveltica;
-	color: black;
-}
-
-div#mainBody p.subsubtitle {
-	font-size: 1.4em;
-	font-weight: bold;
-	color: #333;
-}
-
-div#mainBody p.subsubsubtitle {
-	font-size: 1.2em;
-	font-weight: bold;
-	color: #333;
-}
-
-div#mainBody table.people_table {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	text-align: left;
-	border-collapse: collapse;
-	width: 690px;
-}
-
-div#mainBody table.people_table td.none {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	width: 5%;
 }
 
 /* *** TIMETIABLE *** */
