@@ -44,7 +44,6 @@ div#topBack {
 
 	display: flex;
 	flex-direction: column;
-	/* gap: 20px; */
 }
 
 div#topBack div#logos {
@@ -67,11 +66,6 @@ div#topBack div#logo2 {
 }
 
 div#topBack div#mainTitle {
-	/* padding-top: 150px;
-	padding-left: 30px; */
-	/* float: left; */
-	/* width: 880px; */
-	/* text-align: left; */
 	color: #fff;
 	font-size: 2rem;
 	font-weight: bold;
@@ -104,11 +98,9 @@ div#topBack div#mainTitle a {
 	font-weight: bold;
 	font-family: Arial, Verdana, Heveltica;
 	text-decoration: none;
-	/* clear: both; */
 }
 
 /**** MENU ******/
-
 div#menuBack {
 	padding: 0px;
 	margin: 0 auto;
@@ -162,7 +154,6 @@ div#menuBack ul.menu li p:hover {
 }
 
 /*** SUBMENU ****/
-
 div#menuBack ul.menu ul {
 	display: none;
 	list-style: none;
@@ -177,7 +168,6 @@ div#menuBack ul.menu li:hover > ul {
 	display: block;
 	z-index: 100;
 	width: inherit;
-	/*width:140px;*/
 	background-color: #a7a8aa;
 }
 
@@ -199,6 +189,9 @@ div#menuBack ul.menu li.submenu a:hover {
 }
 
 /*** DEFAULT CONFIG ***/
+blockquote {
+	color: #5b0024;
+}
 
 div#mainBody p.title {
 	font-family: Arial, Verdana, Heveltica;
@@ -284,7 +277,7 @@ div#centerBack div#peu {
 	background: transparent;
 }
 
-/* ** advertisement ** */
+/* ** ADVERTISEMENT ** */
 div#ad {
 	background: #ccccff;
 	padding: 20px;
@@ -358,11 +351,7 @@ div#ad p.plaintext {
 	margin: 20px 0;
 }
 
-blockquote {
-	color: #5b0024;
-}
-
-/* *** TIMETABLE *** */
+/* *** TIMETABLE (program.html) *** */
 .timetable {
 	width: 100%;
 }
@@ -433,6 +422,7 @@ blockquote {
 	border-color: #ffffff;
 }
 
+/* *** SESSIONS *** */
 .tg1 .paperSessionName2 {
 	font-family: Verdana, Arial, Heveltica;
 	font-size: 14px;
@@ -533,6 +523,7 @@ blockquote {
 	vertical-align: top;
 }
 
+/* *** TALKS (keynote.html) *** */
 #mainBody-keynote {
 	display: flex;
 	flex-direction: column;
