@@ -232,6 +232,7 @@ div#mainBody p.subsubsubtitle {
 	font-size: 1.2rem;
 	font-weight: bold;
 	color: #333;
+	margin-top: 10px;
 }
 
 div#mainBody table.people_table {
@@ -245,14 +246,6 @@ div#mainBody table.people_table td.none {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	width: 5%;
-}
-
-div#Sep {
-	margin: 0px;
-	padding: 0px;
-	padding-top: 0px;
-	height: 1px;
-	background: #444;
 }
 
 div#centerBack {
@@ -291,6 +284,7 @@ div#centerBack div#peu {
 	background: transparent;
 }
 
+/* ** advertisement ** */
 div#ad {
 	background: #ccccff;
 	padding: 20px;
@@ -312,42 +306,9 @@ div#ad p.plaintext {
 	color: black;
 	font-size: 0.75rem;
 }
+/* ** -- -- ** */
 
-table#sample {
-	background-color: #ffffff;
-	border: none;
-	width: 800px;
-	margin: 0px;
-	padding: 0px;
-}
-
-table#sample td {
-	padding-top: 0px;
-	padding-left: 45px;
-	padding-bottom: 15px;
-	border: none;
-}
-
-.title {
-	color: black;
-	text-align: left;
-	font-weight: bold;
-	font-family: Arial, Verdana, Heveltica;
-	font-size: 1em;
-	background: transparent;
-	text-decoration: none;
-}
-
-.title a {
-	color: #006;
-	text-align: left;
-	font-weight: bold;
-	font-family: Arial, Verdana, Heveltica;
-	font-size: 1.2em;
-	background: transparent;
-	text-decoration: none;
-}
-
+/* TODO: move to keynote page section */
 .photo {
 	font-weight: bold;
 	text-align: left;
@@ -364,6 +325,7 @@ table#sample td {
 	text-align: left;
 	padding-left: 20px;
 }
+/* ** --- ** */
 
 /* *** HOMEPAGE ***  */
 
@@ -396,351 +358,11 @@ table#sample td {
 	margin: 20px 0;
 }
 
-div#simpleText {
-	margin: 0px;
-	margin-top: 0px;
-	padding: 0px;
-	padding-bottom: 15px;
-	padding-top: 15px;
-	font-family: Arial, Verdana, Heveltica;
-	font-size: 0.8em;
-	font-weight: normal;
-	color: black;
-	text-align: left;
-}
-
-div#simpleText a {
-	color: #006;
-	text-decoration: none;
-}
-
-a#people {
-	font-size: 1em;
-}
-
-table#mainPeople {
-	border-width: thick;
-	padding: 0px;
-	margin: 0px;
-	width: 650px;
-	font-size: 0.9em;
-	background: #5b0024;
-	color: white;
-}
-
-table#mainPeople table#subPeople {
-	background: #ffffcc;
-	border: 0px;
-	padding: 0px;
-}
-
-table#mainPeople table#subPeople td#ipeople {
-	color: black;
-	text-align: left;
-	font-weight: bold;
-	font-family: Arial, Verdana, Heveltica;
-	font-size: 0.8em;
-	width: 150px;
-}
-
-table#mainPeople table#subPeople td#ipeople a {
-	color: black;
-	text-decoration: none;
-}
-
-table#mainPeople table#subPeople td#iproject {
-	color: black;
-	text-align: left;
-	font-weight: bold;
-	font-family: Arial, Verdana, Heveltica;
-	font-size: 0.8em;
-	width: 325px;
-	vertical-align: middle;
-}
-
-table#mainPeople table#subPeople td#iproject a {
-	color: black;
-	text-decoration: none;
-}
-
-td#people {
-	color: black;
-	text-align: left;
-	font-family: Arial, Verdana, Heveltica;
-	font-size: 0.8em;
-	width: 150px;
-}
-
-table#mainPeople table#subPeople td#ipubli {
-	color: black;
-	text-align: left;
-	font-weight: bold;
-	font-family: Arial, Verdana, Heveltica;
-	font-size: 0.8em;
-	width: 36px;
-	vertical-align: middle;
-}
-
-table#mainPeople table#subPeople td#ipubli a {
-	font-family: Arial, Verdana, Heveltica;
-	color: black;
-	text-decoration: none;
-}
-
-td#publi {
-	font-family: Arial, Verdana, Heveltica;
-	font-size: 0.8em;
-	margin-left: 50px;
-	padding-left: 20px;
-}
-
-li#classes {
-	margin-left: 50px;
-	padding-left: 20px;
-}
-
-li#classes a {
-	font-family: Arial, Verdana, Heveltica;
-	font-size: 0.8em;
-	text-decoration: none;
-	color: #5b0024;
-	color: black;
-}
-
-table#mainPeople table#subPeople td#iwork {
-	color: black;
-	text-align: left;
-	font-weight: bold;
-	font-family: Arial, Verdana, Heveltica;
-	font-size: 0.8em;
-	width: 68px;
-	vertical-align: middle;
-}
-
-table#mainPeople table#subPeople td#iwork a {
-	font-family: Arial, Verdana, Heveltica;
-	color: black;
-	text-decoration: none;
-}
-
-table#mainPeople table#subPeople td#iphoto {
-	color: black;
-	text-align: left;
-	font-weight: bold;
-	font-family: Arial, Verdana, Heveltica;
-	font-size: 0.8em;
-	width: 60px;
-	vertical-align: middle;
-}
-
-table#mainPeople table#subPeople td#iphoto a {
-	font-family: Arial, Verdana, Heveltica;
-	color: black;
-	text-decoration: none;
-}
-
 blockquote {
 	color: #5b0024;
 }
 
-ul#journals {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	padding-left: 0px;
-}
-
-ul#journals li blockquote a {
-	font-family: Arial, Verdana, Heveltica;
-	color: #5b0024;
-	text-decoration: none;
-	font-weight: bold;
-	list-style: none;
-	display: inline;
-	list-style: none;
-}
-
-div #newsBack {
-	margin: 0px;
-	margin-top: 0px;
-	padding: 0px;
-	padding-bottom: 15px;
-	padding-top: 0px;
-	padding-left: 25px;
-	padding-right: 35px;
-	font-family: Arial, Verdana, Heveltica;
-	font-size: 0.8em;
-	font-weight: normal;
-	color: black;
-	text-align: left;
-}
-
-div #projectsMenu {
-	background: transparent;
-	margin: 0px;
-	padding: 0px;
-	padding-left: 30px;
-	padding-top: 15px;
-	width: 160px;
-	float: left;
-}
-
-div #projectsMenu ul {
-	background: transparent;
-	list-style: none;
-	margin: 0px;
-	padding: 0px;
-}
-
-div #projectsMenu ul li {
-	margin-bottom: 4px;
-	background: black;
-	padding-top: 5px;
-	padding-left: 5px;
-	padding-bottom: 5px;
-	padding-right: 5px;
-	background-color: #000066;
-	display: block;
-}
-
-div#projectsMenu ul li a {
-	font-family: Arial, Verdana, Heveltica;
-	font-size: 0.8em;
-	text-decoration: none;
-	color: white;
-	font-weight: bold;
-	background: transparent;
-	color: #ffffff;
-	display: block;
-}
-
-div#projectsMenu ul li:hover {
-	background: #ccccff;
-	color: #000066;
-}
-
-div#projectsMenu ul li a:hover {
-	background: #ccccff;
-	color: #000066;
-}
-
-div#projectBody {
-	background: transparent;
-	float: left;
-	margin-left: 40px;
-	width: 618px;
-	padding-right: 30px;
-	font-size: 0.8em;
-}
-
-div#projectBody p.title {
-	font-family: Arial, Verdana, Heveltica;
-	color: #006;
-	font-size: xx-large;
-	padding-top: 0px;
-	margin-top: 8px;
-	font-weight: bold;
-}
-
-div#projectBody p.subtitle {
-	font-family: Arial, Verdana, Heveltica;
-	color: #006;
-	font-size: x-large;
-	padding-top: 0px;
-	margin-top: 8px;
-	font-weight: bold;
-}
-
-div#projectBody p.plaintext {
-	font-family: Arial, Verdana, Heveltica;
-	color: black;
-}
-
-div#projectBody p.subsubtitle {
-	font-size: 1.4em;
-	font-weight: bold;
-	color: #006;
-}
-
-div#personalMain {
-	padding-left: 50px;
-}
-
-table#personalTable {
-	background-color: #ffffff;
-	border: none;
-	width: 400px;
-	margin: 0px;
-	padding: 0px;
-	padding-left: 40px;
-}
-
-table#personalTable td.photo {
-	font-weight: bold;
-	text-align: center;
-	background: white;
-	vertical-align: middle;
-	padding-left: 0px;
-	padding-right: 30px;
-}
-
-table#personalTable td p.title {
-	margin: 0px;
-	margin-top: 0px;
-	padding: 0px;
-	padding-bottom: 15px;
-	font-family: Arial, Verdana, Heveltica;
-	font-size: 1.5em;
-	font-weight: bold;
-	color: #006;
-	text-align: left;
-	width: 400px;
-}
-
-table#personalTable td p.simpleText {
-	margin: 0px;
-	margin-top: 0px;
-	padding: 0px;
-	padding-bottom: 15px;
-	padding-top: 15px;
-	font-family: Arial, Verdana, Heveltica;
-	font-size: 0.8em;
-	font-weight: normal;
-	color: black;
-	text-align: left;
-}
-
-table#personalTable td p.simpleText a {
-	color: #006;
-}
-
-div #personalMain {
-	background: transparent;
-	margin: 0px;
-	padding: 0px;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-top: 0px;
-	float: left;
-}
-
-div#personalMain p.title {
-	font-family: Arial, Verdana, Heveltica;
-	color: #006;
-	font-size: 1.5em;
-	padding-top: 0px;
-	margin-top: 0px;
-	font-weight: bold;
-}
-
-div#personalMain p.text {
-	font-size: 0.8em;
-	font-weight: normal;
-	color: black;
-	text-align: justify;
-}
-
-/* *** TIMETIABLE *** */
+/* *** TIMETABLE *** */
 .timetable {
 	width: 100%;
 }
