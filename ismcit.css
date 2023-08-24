@@ -17,20 +17,6 @@ body {
 	font-family: Arial, Verdana, Heveltica;
 }
 
-.fluid-wrapper {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	height: 0;
-}
-.fluid-wrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	border: none;
-}
-
 div#topBack {
 	max-width: 1024px;
 	padding: 20px 40px;
@@ -267,17 +253,16 @@ div#twitter {
 	overflow: auto;
 }
 
+/* ** ADVERTISEMENT ** */
 div#centerBack div#peu {
 	padding-top: 10px;
 	font-family: Arial, Verdana, Heveltica;
 	font-size: 0.8em;
-	font-weight: normal;
 	color: black;
 	text-align: center;
 	background: transparent;
 }
 
-/* ** ADVERTISEMENT ** */
 div#ad {
 	background: #ccccff;
 	padding: 20px;
@@ -300,25 +285,6 @@ div#ad p.plaintext {
 	font-size: 0.75rem;
 }
 /* ** -- -- ** */
-
-/* TODO: move to keynote page section */
-.photo {
-	font-weight: bold;
-	text-align: left;
-	background: white;
-	width: 120px;
-	padding-left: 20px;
-}
-
-.text {
-	font-family: Arial, Verdana, Heveltica;
-	font-size: 1em;
-	font-weight: normal;
-	color: black;
-	text-align: left;
-	padding-left: 20px;
-}
-/* ** --- ** */
 
 /* *** HOMEPAGE ***  */
 
@@ -630,11 +596,49 @@ div#ad p.plaintext {
 	vertical-align: top;
 }
 
+.photo {
+	font-weight: bold;
+	text-align: left;
+	background: white;
+	width: 120px;
+	padding-left: 20px;
+}
+
+.text {
+	font-family: Arial, Verdana, Heveltica;
+	font-size: 1em;
+	font-weight: normal;
+	color: black;
+	text-align: left;
+	padding-left: 20px;
+}
+
 /* *** REGISTRATION *** */
 .registration-parent .registration-link-div {
 	text-align: center;
 	margin: 40px 0;
 	font-weight: bold;
+}
+
+/* *** LOCATION *** */
+.location-parent .list {
+	margin-top: 20px;
+}
+
+.location-parent .google-map {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+
+	margin: 20px 0;
+}
+.location-parent .google-map iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
 }
 
 @media only screen and (max-width: 768px) {
