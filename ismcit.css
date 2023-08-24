@@ -137,7 +137,8 @@ div#menuBack ul.menu li {
 	text-align: center;
 }
 
-div#menuBack ul.menu li a {
+div#menuBack ul.menu li a,
+div#menuBack ul.menu li p {
 	background: transparent;
 	float: left;
 	color: #ffffff;
@@ -149,7 +150,13 @@ div#menuBack ul.menu li a {
 	padding: 12px;
 }
 
-div#menuBack ul.menu li a:hover {
+div#menuBack ul.menu li p {
+	margin: 0;
+}
+
+div#menuBack ul.menu li a:hover,
+div#menuBack ul.menu li p:hover {
+	cursor: pointer;
 	background: #333;
 	color: #fff;
 	width: inherit;
@@ -871,7 +878,8 @@ div#mainBody table.people_table td.none {
 		width: auto;
 	}
 
-	div#menuBack ul.menu li a {
+	div#menuBack ul.menu li a,
+	div#menuBack ul.menu li p {
 		width: 80%;
 		text-align: left;
 	}
