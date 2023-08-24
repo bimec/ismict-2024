@@ -620,7 +620,7 @@ div#ad p.plaintext {
 	font-weight: bold;
 }
 
-/* *** LOCATION *** */
+/* *** VENUE (location.html) *** */
 .location-parent .list {
 	margin-top: 20px;
 }
@@ -632,6 +632,7 @@ div#ad p.plaintext {
 
 	margin: 20px 0;
 }
+
 .location-parent .google-map iframe {
 	position: absolute;
 	top: 0;
@@ -639,6 +640,38 @@ div#ad p.plaintext {
 	width: 100%;
 	height: 100%;
 	border: none;
+}
+
+/* *** AWARDS *** */
+.tg3 .paperSessionPaperTitle {
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px;
+	overflow: hidden;
+	word-break: normal;
+	background-color: #ffffff;
+	color: #000000;
+	vertical-align: top;
+}
+
+.tg3 .paperSessionAuthorName {
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px;
+	overflow: hidden;
+	word-break: normal;
+	background-color: #ffffff;
+	color: #000000;
+	vertical-align: top;
+}
+
+.heading {
+	margin-top: 20px;
+	font-size: 18px;
+	width: 600px;
+	background-color: #f2f4ed;
 }
 
 @media only screen and (max-width: 768px) {
