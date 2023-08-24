@@ -807,6 +807,106 @@ div#mainBody table.people_table td.none {
 	border-color: #ffffff;
 }
 
+.tg1 .paperSessionName2 {
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 5px;
+	overflow: hidden;
+	word-break: normal;
+	background-color: #3b3a30;
+	color: #ffffff;
+	vertical-align: top;
+}
+.tg1 .DAY {
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 5px;
+	overflow: hidden;
+	word-break: normal;
+	background-color: #b2c2bf;
+	color: #000000;
+	vertical-align: top;
+}
+.tg1 .paperSessionChair2 {
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px;
+	overflow: hidden;
+	word-break: normal;
+	background-color: #b2c2bf;
+	color: #000000;
+	vertical-align: top;
+}
+.tg1 .paperSessionTime2 {
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px;
+	overflow: hidden;
+	word-break: normal;
+	background-color: #d0efea;
+	color: #000000;
+	vertical-align: top;
+}
+.tg1 .paperInvitedTalk {
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px;
+	overflow: hidden;
+	word-break: normal;
+	background-color: #b2c2bf;
+	color: #000000;
+	vertical-align: top;
+}
+.tg1 .paperInvitedAuthorName {
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px;
+	overflow: hidden;
+	word-break: normal;
+	background-color: #f2f4ed;
+	color: #000000;
+	vertical-align: top;
+}
+.tg1 .paperInvitedTalkTime {
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px;
+	overflow: hidden;
+	word-break: normal;
+	background-color: #d0efea;
+	color: #000000;
+	vertical-align: top;
+}
+.tg1 .paperSessionPaperTitle {
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px;
+	overflow: hidden;
+	word-break: normal;
+	background-color: #f2f4ed;
+	color: #000000;
+	vertical-align: top;
+}
+.tg1 .paperSessionAuthorName {
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px;
+	overflow: hidden;
+	word-break: normal;
+	background-color: #f2f4ed;
+	color: #000000;
+	vertical-align: top;
+}
+
 @media only screen and (max-width: 768px) {
 	html {
 		width: auto;
@@ -890,6 +990,10 @@ div#mainBody table.people_table td.none {
 		width: auto;
 		box-shadow: none;
 		margin: 0;
+	}
+
+	.tg1 {
+		width: 100%;
 	}
 }
 
