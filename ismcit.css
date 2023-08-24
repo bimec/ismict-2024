@@ -1,8 +1,8 @@
-/* * {
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-} */
+}
 
 html {
 	width: 1024px;
@@ -32,87 +32,86 @@ body {
 }
 
 div#topBack {
-	width: 1024px;
-	margin: 0px;
-	padding: 0px;
-	margin-left: auto;
-	margin-right: auto;
+	max-width: 1024px;
+	padding: 20px 40px;
+	margin: 0 auto;
 	margin-top: 20px;
 	background: url('pictures/london.png') no-repeat center center/cover;
 	box-shadow: 0px 0px 20px #000;
-	clear: both;
 	overflow: auto;
-	height: 300px;
+	height: 350px;
+	max-height: 400px;
+
+	display: flex;
+	flex-direction: column;
+	/* gap: 20px; */
 }
 
-div#topBack div#header {
-	box-shadow: 0px 0px 20px #000;
+div#topBack div#logos {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-self: flex-end;
 }
 
-div#topBack div#header div#logo1 {
+div#topBack div#logo1 {
 	margin-top: 0px;
 	margin-left: -200px;
 	margin-right: 0px;
-	float: left;
 }
 
-div#topBack div#header div#logo2 {
+div#topBack div#logo2 {
 	margin-top: 0px;
 	margin-left: -30px;
 	margin-right: 20px;
-	float: left;
 }
 
-div#topBack div#header div#mainTitle {
-	padding-top: 150px;
-	padding-left: 30px;
-	float: left;
-	width: 880px;
-	text-align: left;
+div#topBack div#mainTitle {
+	/* padding-top: 150px;
+	padding-left: 30px; */
+	/* float: left; */
+	/* width: 880px; */
+	/* text-align: left; */
 	color: #fff;
-	font-size: 2em;
+	font-size: 2rem;
 	font-weight: bold;
 	font-family: Arial, Verdana, Heveltica;
 	text-decoration: none;
 }
 
-div#topBack div#header div#mainTitle .event-name {
-	font-size: 1.8em;
-	line-height: 0.8;
-	margin: 0.1em;
+div#topBack div#mainTitle .event-name {
+	text-shadow: 0 0 4px red, 0 0 4px red, 0 0 4px red, 0 0 4px red, 0 0 4px red;
+	margin: 0;
+}
+
+div#topBack div#mainTitle .event-description {
+	margin: 0;
+	font-size: 1.1rem;
+	/* margin: 5px 0; */
 	text-shadow: 0 0 4px red, 0 0 4px red, 0 0 4px red, 0 0 4px red, 0 0 4px red;
 }
 
-div#topBack div#header div#mainTitle .event-description {
-	font-size: 0.7em;
-	line-height: 0.8;
-	margin: 0.5em;
+div#topBack div#mainTitle .event-date {
+	margin: 0;
+	font-size: 1.1rem;
+	/* margin-top: 10px; */
 	text-shadow: 0 0 4px red, 0 0 4px red, 0 0 4px red, 0 0 4px red, 0 0 4px red;
 }
 
-div#topBack div#header div#mainTitle .event-date {
-	font-size: 0.7em;
-	line-height: 0.8;
-	margin: 0.5em;
-	text-shadow: 0 0 4px red, 0 0 4px red, 0 0 4px red, 0 0 4px red, 0 0 4px red;
-}
-
-div#topBack div#header div#mainTitle a {
+div#topBack div#mainTitle a {
 	color: #fff;
 	text-align: left;
 	font-weight: bold;
 	font-family: Arial, Verdana, Heveltica;
 	text-decoration: none;
-	clear: both;
+	/* clear: both; */
 }
 
 /**** MENU ******/
 
 div#menuBack {
-	margin: 0px;
 	padding: 0px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 	width: 1024px;
 	background: #000;
 	clear: both;
@@ -210,12 +209,10 @@ div#Sep {
 }
 
 div#centerBack {
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;
 	margin-bottom: 20px;
-	width: 1024px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	max-width: 1024px;
+	padding: 20px 0px;
 	background: #fff;
 	box-shadow: 0px 0px 20px #000;
 	clear: both;
@@ -223,25 +220,11 @@ div#centerBack {
 	overflow: auto;
 }
 
-div#centerBack div#central {
-	margin-left: auto;
-	margin-right: auto;
-	width: 1024px;
-	overflow: auto;
+div#mainBody {
+	margin: 0 80px;
 }
 
-div#central div#mainBody {
-	margin-left: 40px;
-	margin-right: 0px;
-	padding-left: 20px;
-	padding-right: 20px;
-	background: transparent;
-	width: 670px;
-	float: left;
-	overflow: auto;
-}
-
-div#central div#twitter {
+div#twitter {
 	margin-top: 20px;
 	margin-left: 0px;
 	margin-right: 50px;
@@ -280,7 +263,7 @@ div#ad p.subtitle {
 div#ad p.plaintext {
 	font-family: Arial, Verdana, Heveltica;
 	color: black;
-	font-size: 0.75em;
+	font-size: 0.75rem;
 }
 
 table#sample {
@@ -679,15 +662,6 @@ div#personalMain p.text {
 	text-align: justify;
 }
 
-div#mainBody {
-	background: transparent;
-	float: left;
-	margin-left: 60px;
-	width: 900px;
-	margin-right: 80px;
-	font-size: 0.9em;
-}
-
 div#mainBody p.title {
 	font-family: Arial, Verdana, Heveltica;
 	color: #333;
@@ -907,53 +881,162 @@ div#mainBody table.people_table td.none {
 	vertical-align: top;
 }
 
+#mainBody-keynote {
+	display: flex;
+	flex-direction: column;
+	margin: 50px 100px;
+}
+
+.tg2 .paperSessionName2 {
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 5px;
+	overflow: hidden;
+	word-break: normal;
+	background-color: #3b3a30;
+	color: #ffffff;
+	vertical-align: top;
+}
+.tg2 .paperSessionChair2 {
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px;
+	overflow: hidden;
+	word-break: normal;
+	background-color: #b2c2bf;
+	color: #000000;
+	vertical-align: top;
+}
+.tg2 .paperSessionTime2 {
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px;
+	overflow: hidden;
+	word-break: normal;
+	background-color: #d0efea;
+	color: #000000;
+	vertical-align: top;
+}
+.tg2 .paperSessionTime3 {
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px;
+	overflow: hidden;
+	word-break: normal;
+	background-color: #b2c2bf;
+	color: #000000;
+	vertical-align: top;
+}
+.tg2 .paperInvitedTalk {
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px;
+	overflow: hidden;
+	word-break: normal;
+	background-color: #b2c2bf;
+	color: #000000;
+	vertical-align: top;
+}
+.tg2 .paperInvitedAuthorName {
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px;
+	overflow: hidden;
+	word-break: normal;
+	background-color: #f2f4ed;
+	color: #000000;
+	vertical-align: top;
+}
+.tg2 .paperInvitedTalkTime {
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px;
+	overflow: hidden;
+	word-break: normal;
+	background-color: #d0efea;
+	color: #000000;
+	vertical-align: top;
+}
+.tg2 .paperSessionPaperTitle {
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px;
+	overflow: hidden;
+	word-break: normal;
+	background-color: #f2f4ed;
+	color: #000000;
+	vertical-align: top;
+}
+.tg2 .paperSessionAuthorName {
+	font-family: Verdana, Arial, Heveltica;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px;
+	overflow: hidden;
+	word-break: normal;
+	background-color: #f2f4ed;
+	color: #000000;
+	vertical-align: top;
+}
+
 @media only screen and (max-width: 768px) {
-	html {
-		width: auto;
+	div#mainBody {
+		margin: 40px 20px;
+		/* height: 100%;
+		width: 50%; */
+	}
+
+	div#centerBack {
+		padding: 0;
+		margin: 0;
+		height: 100%;
+		/* width: 100%; */
+		/* width: 50%; */
+		clear: none;
 	}
 
 	div#topBack {
-		width: auto;
-		height: 100%;
-		margin: 0;
-		padding: 40px 20px;
-		box-shadow: none;
-	}
-
-	div#topBack div#header {
-		width: 100%;
+		/* width: 100%; */
 
 		display: flex;
 		flex-direction: column-reverse;
 		box-shadow: none;
 	}
 
-	div#topBack div#header div#logo1,
-	div#topBack div#header div#logo2,
-	div#topBack div#header div#mainTitle {
+	div#topBack div#logo1,
+	div#topBack div#logo2,
+	div#topBack div#mainTitle {
 		margin: 0;
 		padding: 0;
 		float: none;
 	}
 
-	div#topBack div#header div#mainTitle {
+	div#topBack div#mainTitle {
 		width: auto;
 		margin-top: 40px;
 	}
 
-	div#topBack div#header div#mainTitle .event-name,
-	div#topBack div#header div#mainTitle .event-description,
-	div#topBack div#header div#mainTitle .event-date {
+	div#topBack div#mainTitle .event-name,
+	div#topBack div#mainTitle .event-description,
+	div#topBack div#mainTitle .event-date {
 		font-size: none;
 		line-height: 25px;
 		margin: 0;
 	}
 
-	div#topBack div#header div#mainTitle .event-name {
+	div#topBack div#mainTitle .event-name {
 		line-height: 55px;
 	}
 
-	div#topBack div#header div#mainTitle .event-description {
+	div#topBack div#mainTitle .event-description {
 		margin: 30px 0;
 	}
 
@@ -984,16 +1067,26 @@ div#mainBody table.people_table td.none {
 		text-align: left;
 	}
 
-	div#centerBack,
-	div#centerBack div#central,
-	div#central div#mainBody {
-		width: auto;
-		box-shadow: none;
-		margin: 0;
+	.tg1,
+	.tg2 {
+		width: 100%;
 	}
 
-	.tg1 {
-		width: 100%;
+	.tg2 td.photo,
+	.tg2 td.text {
+		margin: 0;
+		padding: 0;
+	}
+
+	div#mainBody p.subsubtitle {
+		text-align: center;
+	}
+
+	.tg2 .user-info-tr {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
 }
 
