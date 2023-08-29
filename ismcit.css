@@ -17,7 +17,7 @@ body {
 
 div#topBack {
 	max-width: 1024px;
-	padding: 20px 40px;
+	padding: 30px 40px;
 	margin: 0 auto;
 	margin-top: 20px;
 	background: url('pictures/london.png') no-repeat center center/cover;
@@ -28,6 +28,7 @@ div#topBack {
 
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 }
 
 div#topBack div#logos {
@@ -662,10 +663,6 @@ div#ad p.plaintext {
 	div#topBack {
 		padding: 20px 30px;
 		margin-top: 0px;
-		height: 400px;
-		max-height: 600px;
-
-		justify-content: space-between;
 	}
 
 	div#topBack div#mainTitle {
@@ -738,8 +735,8 @@ div#ad p.plaintext {
 @media only screen and (max-width: 485px) {
 	div#topBack {
 		padding: 20px 20px;
-		height: 450px;
-		max-height: 600px;
+		height: 400px;
+		max-height: 450px;
 	}
 
 	div#topBack .emb-iee-logo {
