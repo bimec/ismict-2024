@@ -708,9 +708,9 @@ div#ad p.plaintext {
 		padding: 0;
 	}
 
-	div#mainBody p.subsubtitle {
+	/* div#mainBody p.subsubtitle {
 		text-align: center;
-	}
+	} */
 
 	.tg2 .user-info-tr {
 		display: flex;
@@ -726,6 +726,10 @@ div#ad p.plaintext {
 
 /* small mobile screens */
 @media only screen and (max-width: 485px) {
+	div#mainBody {
+		margin: 0 30px;
+	}
+
 	.timetable {
 		overflow-x: scroll;
 	}
