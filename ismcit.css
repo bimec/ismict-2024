@@ -660,6 +660,7 @@ div#ad p.plaintext {
 	background-color: #f2f4ed;
 }
 
+/* table and mobile */
 @media only screen and (max-width: 768px) {
 	html {
 		width: 100%;
@@ -717,8 +718,13 @@ div#ad p.plaintext {
 		align-items: center;
 		justify-content: center;
 	}
+
+	#mainBody-keynote {
+		margin: 50px 50px;
+	}
 }
 
+/* small mobile screens */
 @media only screen and (max-width: 485px) {
 	.timetable {
 		overflow-x: scroll;
@@ -727,5 +733,9 @@ div#ad p.plaintext {
 	.timetable tbody tr .td-itinerary {
 		width: 100px;
 		padding: 10px;
+	}
+
+	#mainBody-keynote {
+		margin: 30px 20px;
 	}
 }
