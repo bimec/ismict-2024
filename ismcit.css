@@ -281,6 +281,12 @@ div#ad p.plaintext {
 	width: 250px;
 }
 
+.notification{
+
+	color: red;
+
+}
+
 /* *** Call for Papers (CFP) *** */
 .cfp-parent .download-pdf-p {
 	margin-top: 10px;
