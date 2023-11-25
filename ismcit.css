@@ -274,11 +274,12 @@ div#ad p.plaintext {
 
 .homepage-parent .sponsor {
 	margin-top: 20px;
+	color: red;
 }
 
 .homepage-parent .sponsor img {
 	margin-top: 20px;
-	width: 250px;
+	width: 200px;
 }
 
 .notification{
